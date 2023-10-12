@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gather_Grid:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Gather_Grid</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Gather_Grid-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Gather_Grid:war exploded" />
+    </root>
+  </artifact>
+</component>

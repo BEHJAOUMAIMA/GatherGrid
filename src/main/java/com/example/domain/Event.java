@@ -1,23 +1,25 @@
-package com.example.gather_grid.domain;
+package com.example.domain;
 
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import jakarta.persistence.*;
+
 import java.sql.Time;
 import java.util.Date;
 import java.util.Objects;
 
 @Entity
 public class Event {
-    @Id @GeneratedValue(strategy = GenerationType.AUTO)
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String name;
     private Date date;
     private Time hour;
     private String place;
     private String description;
+
+    @ManyToOne
+    private Category category;
 
     public Event() {
     }

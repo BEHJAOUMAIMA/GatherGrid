@@ -17,7 +17,7 @@ The following dependencies are used in this project, along with their specific v
 To run this project, make sure you have the following:
 
 - [JDK](https://www.oracle.com/java/technologies/javase-downloads.html) (Java Development Kit) version 8 or higher.
-- A Jakarta EE-compatible servlet container (e.g., [Apache Tomcat](http://tomcat.apache.org/)).
+- A Jakarta EE-compatible servlet container (e.g., [Apache Tomcat](http://tomcat.apache.org/)) version 10.
 
 ## How to Build and Run
 
